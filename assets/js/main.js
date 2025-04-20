@@ -5,10 +5,7 @@
  * @returns {boolean}
  */
 function isWorkingAgePerson(age) {
-	if (age >= 18 && age <= 65) {
-		return true
-	}
-	return false
+	return age >= 18 && age <= 65
 }
 console.log(isWorkingAgePerson(20))
 console.log(isWorkingAgePerson(4))
@@ -22,10 +19,7 @@ console.log(isWorkingAgePerson(88))
  * @returns {boolean}
  */
 function checkMultiplicity(num1, num2) {
-	if (num1 % num2 === 0) {
-		return true
-	}
-	return false
+	return num1 % num2 === 0
 }
 console.log(checkMultiplicity(25, 5))
 console.log(checkMultiplicity(15, 3))
@@ -41,10 +35,7 @@ console.log(checkMultiplicity(15, 4))
  * @returns {boolean}
  */
 function isCreatedTriangle(a, b, c) {
-	if (a + b > c && a + c > b && b + c > a) {
-		return true
-	}
-	return false
+	return a + b > c && a + c > b && b + c > a
 }
 console.log(isCreatedTriangle(3, 4, 5))
 console.log(isCreatedTriangle(1, 2, 3))
@@ -102,10 +93,7 @@ console.log('Parallelepiped surface area:', parallelepipedSurfaceArea(2, 3, 4))
  * @returns {boolean}
  */
 function isPrime(num) {
-	if (num % num === 0 && num % 1 === 0) {
-		return true
-	}
-	return false
+	return num % num === 0 && num % 1 === 0
 }
 console.log(isPrime(5))
 console.log(isPrime(4))
