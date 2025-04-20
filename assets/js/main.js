@@ -183,11 +183,8 @@ createGoodsCard(goodsIcon, goodsName, goodsDescription, goodsPrice, 100)
  * @param {number} c
  * @returns {boolean}
  */
-let CreatedTriangle = function (a, b, c) {
-	if (a + b > c && a + c > b && b + c > a) {
-		return true
-	}
-	return false
+const CreatedTriangle = function (a, b, c) {
+	return a + b > c && a + c > b && b + c > a
 }
 console.log(CreatedTriangle(3, 4, 5))
 
@@ -196,10 +193,7 @@ console.log(CreatedTriangle(3, 4, 5))
  * @param {number} num
  * @returns {boolean}
  */
-let Prime = function (num) {
-	if (num % num === 0 && num % 1 === 0) {
-		return true
-	}
-	return false
+const Prime = function (num) {
+	return num % num === 0 && num % 1 === 0
 }
 console.log(Prime(5))
