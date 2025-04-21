@@ -183,17 +183,17 @@ createGoodsCard(goodsIcon, goodsName, goodsDescription, goodsPrice, 100)
  * @param {number} c
  * @returns {boolean}
  */
-const CreatedTriangle = function (a, b, c) {
+const createdTriangle = function (a, b, c) {
 	return a + b > c && a + c > b && b + c > a
 }
-console.log(CreatedTriangle(3, 4, 5))
+console.log(createdTriangle(3, 4, 5))
 
 /**
  * Function to check if a number is prime
  * @param {number} num
  * @returns {boolean}
  */
-const Prime = function (num) {
+const prime = function (num) {
 	return num % num === 0 && num % 1 === 0
 }
-console.log(Prime(5))
+console.log(prime(5))
